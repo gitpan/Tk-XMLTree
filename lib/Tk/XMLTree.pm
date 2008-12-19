@@ -15,7 +15,7 @@ BEGIN {
 	require Tk::Tree;
 	require XML::Parser;
 	require Tk::Derived;
-	$VERSION	= '0.01';
+	$VERSION	= '0.02';
 	@ISA		= qw(Tk::Derived Tk::Tree);
 }
 
@@ -35,9 +35,9 @@ sub Populate {
 		-pcdatalongsymbol		=> ["PASSIVE", "pcdataLongSymbol", 
 									"PCDATALongSymbol", '...'],
 		-pcdatapreservespace	=> ["PASSIVE", "pcdataPreserveSpace", 
-									"PCDATAPreserveSpace", 0]
+									"PCDATAPreserveSpace", 0],
+		-itemtype				=> ["SELF", "itemType", "ItemType", 'text']
 	);
-	$myself->configure(-itemtype => 'text');
 }
 
 # ConfigSpecs methods
@@ -373,7 +373,7 @@ included with this module.
 
 =head1 VERSION
 
-B<Tk::XMLTree> version 0.01.
+B<Tk::XMLTree> version 0.02.
 
 =head1 AUTHOR
 
