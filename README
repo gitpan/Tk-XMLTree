@@ -1,5 +1,9 @@
 Tk::XMLTree - An XML tree widget
 
+MODULE HAS MOVED
+
+Tk::XMLTree has moved to Tk::Tree::XML and will be removed.
+
 DESCRIPTION
 
 Tk::XMLTree graphically displays the tree structure of XML documents loaded 
@@ -12,7 +16,7 @@ Target applications may include XML viewers, editors and the like.
 
 VERSION
 
-Tk::XMLTree version 0.02.
+Tk::XMLTree version 0.03.
 
 USER VISIBLE CHANGES SINCE LAST RELEASE
 

@@ -1,5 +1,8 @@
 Revision history for Tk-XMLTree
 
+0.03    Sun Dec 21 12:21:05 CET 2008
+        Tk-XMLTree has moved to Tk-Tree-XML and will be removed.
+
 0.02    Fri Dec 19 23:16:06 CET 2008
         Moved configuration of -itemtype from out of to within ConfigSpecs.
 		Updated t/pod-coverage.t so that methods Populate (inherited) and pcdatamaxlength (private, not to be called directly) are not pod documentation checked.

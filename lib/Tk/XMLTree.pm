@@ -15,7 +15,7 @@ BEGIN {
 	require Tk::Tree;
 	require XML::Parser;
 	require Tk::Derived;
-	$VERSION	= '0.02';
+	$VERSION	= '0.03';
 	@ISA		= qw(Tk::Derived Tk::Tree);
 }
 
@@ -171,6 +171,10 @@ __END__
 =head1 NAME
 
 Tk::XMLTree - An XML tree widget
+
+=head1 MODULE HAS MOVED
+
+Tk::XMLTree has moved to Tk::Tree::XML and will be removed.
 
 =head1 SYNOPSIS
 
@@ -373,7 +377,7 @@ included with this module.
 
 =head1 VERSION
 
-B<Tk::XMLTree> version 0.02.
+B<Tk::XMLTree> version 0.03.
 
 =head1 AUTHOR
 
